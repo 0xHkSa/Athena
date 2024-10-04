@@ -26,7 +26,7 @@ athena.start((ctx) => {
 athena.help((ctx) => ctx.reply("How can I help?"));
 
 athena.command("hello", (ctx) => {
-  console.log("Recieved 'hello' command");
+  console.log("Recieved command");
   ctx.reply("welcome to Athena");
 });
 
